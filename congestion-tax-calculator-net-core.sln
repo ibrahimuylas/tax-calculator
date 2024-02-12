@@ -1,0 +1,58 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.Data", "TaxCalculator.Data\TaxCalculator.Data.csproj", "{0A1F89C3-30C1-4F70-A4EB-37152F3463CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.Api", "TaxCalculator.Api\TaxCalculator.Api.csproj", "{E969EE8B-8F43-45A2-8FDF-3119697A409E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EB48642F-7B29-4264-BCEE-A393B221E974}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{32E68A59-08DA-40D7-A87F-ECFD6EB58D65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DA72E47F-442F-4F69-8431-B58441D94637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.UnitTests", "TaxCalculator.UnitTests\TaxCalculator.UnitTests.csproj", "{0E8271B7-220B-4F8D-81EC-A52FB575A4F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.IntegrationTests", "TaxCalculator.IntegrationTests\TaxCalculator.IntegrationTests.csproj", "{C30BFC24-0D7E-49C7-9824-68B5CAC5CAA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A1F89C3-30C1-4F70-A4EB-37152F3463CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A1F89C3-30C1-4F70-A4EB-37152F3463CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A1F89C3-30C1-4F70-A4EB-37152F3463CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A1F89C3-30C1-4F70-A4EB-37152F3463CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E969EE8B-8F43-45A2-8FDF-3119697A409E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E969EE8B-8F43-45A2-8FDF-3119697A409E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E969EE8B-8F43-45A2-8FDF-3119697A409E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E969EE8B-8F43-45A2-8FDF-3119697A409E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8271B7-220B-4F8D-81EC-A52FB575A4F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8271B7-220B-4F8D-81EC-A52FB575A4F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8271B7-220B-4F8D-81EC-A52FB575A4F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8271B7-220B-4F8D-81EC-A52FB575A4F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30BFC24-0D7E-49C7-9824-68B5CAC5CAA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30BFC24-0D7E-49C7-9824-68B5CAC5CAA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30BFC24-0D7E-49C7-9824-68B5CAC5CAA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30BFC24-0D7E-49C7-9824-68B5CAC5CAA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {928EB0A9-2278-4176-838C-5B0B659803BE}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E969EE8B-8F43-45A2-8FDF-3119697A409E} = {DA72E47F-442F-4F69-8431-B58441D94637}
+		{0A1F89C3-30C1-4F70-A4EB-37152F3463CE} = {DA72E47F-442F-4F69-8431-B58441D94637}
+		{0E8271B7-220B-4F8D-81EC-A52FB575A4F2} = {32E68A59-08DA-40D7-A87F-ECFD6EB58D65}
+		{C30BFC24-0D7E-49C7-9824-68B5CAC5CAA8} = {32E68A59-08DA-40D7-A87F-ECFD6EB58D65}
+	EndGlobalSection
+EndGlobal
